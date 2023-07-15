@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(20, 20, 20);
+}
+.heading{
+    margin-top: 5%;
+    text-align: center;
+    color: azure;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.card{
+    background-color: rgb(205, 89, 0);
+    float: left;
+    width: 24%;
+    min-height: 150px;
+    padding: 4px;
+    margin-left: 7%;
+    margin-bottom: 5%;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+.card_name{
+    font-size: 30px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.card_name.card_small{
+    color: aliceblue;
+    font-size: 50px;
+}
